@@ -1,8 +1,8 @@
 # esx-identify
 
 [![Version](https://img.shields.io/github/release/username/repo.svg)](https://github.com/SilantroX/esx-identity/releases)
-[![License](https://img.shields.io/github/license/username/repo.svg)](https://github.com/SilantroX/esx-identity/LICENSE)
-
+[![License](https://img.shields.io/github/license/username/repo.svg)](https://github.com/SilantroX/esx-identity/blob/main/LICENSE)
+##ENGLISH
 ## Description
 
 esx-identify is a redesigned version of esx-identity, a script for FiveM using the ESX framework. This script allows players to create and manage their in-game identities, including their name, date of birth, and gender.
@@ -25,15 +25,10 @@ This script is based on the original esx-identity script created by [ESX Framewo
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/SilantroX/esx-identity/LICENSE). See the [LICENSE](https://github.com/SilantroX/esx-identity/LICENSE) file for more details.
+This project is licensed under the [MIT License](https://github.com/SilantroX/esx-identity/blob/main/LICENSE). See the [LICENSE](https://github.com/SilantroX/esx-identity/blob/main/LICENSE) file for more details.
 
 ---
-
-# esx-identify
-
-[![Versión](https://img.shields.io/github/release/username/repo.svg)](https://github.com/SilantroX/esx-identity/releases)
-[![Licencia](https://img.shields.io/github/license/username/repo.svg)](https://github.com/SilantroX/esx-identity/LICENSE)
-
+##ESPAÑOL
 ## Descripción
 
 esx-identify es una versión rediseñada de esx-identity, un script para FiveM que utiliza el framework ESX. Este script permite a los jugadores crear y gestionar sus identidades en el juego, incluyendo su nombre, fecha de nacimiento y género.
@@ -56,4 +51,4 @@ Este script se basa en el script original esx-identity creado por [ESX Framework
 
 ## Licencia
 
-Este proyecto está licenciado bajo la [Licencia MIT](https://github.com/SilantroX/esx-identity/LICENSE). Consulta el archivo [LICENSE](https://github.com/SilantroX/esx-identity/LICENSE) para obtener más detalles.
+- Este proyecto está licenciado bajo la [Licencia MIT](https://github.com/SilantroX/esx-identity/blob/main/LICENSE). Consulta el archivo [LICENSE](https://github.com/SilantroX/esx-identity/blob/main/LICENSE) para obtener más detalles.
