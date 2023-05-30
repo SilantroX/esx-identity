@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script src="nui://game/ui/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+
+    <title>ESX Identity</title>
+  </head>
+
+  <body onkeydown="TriggeredKey(this)">
+    <div class="dialog">
+      <div class="title"><b>IDENTIDAD</b></div>
+      <form id="register" name="register" action="#">
+        <div
+          style="
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-family: 'Gill Sans', sans-serif;
+          "
+        >
+          Nombre
+        </div>
+        <input
+          id="firstname"
+          type="text"
+          class=""
+          name="firstname"
+          placeholder="Nombre"
+          minlength="3"
+          maxlength="8"
+          pattern="[a-zA-Z]*"
+        /><br />
+        <div
+          style="
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-family: 'Gill Sans', sans-serif;
+          "
+        >
+          Apellido
+        </div>
+        <input
+          id="lastname"
+          type="text"
+          class=""
+          name="lastname"
+          placeholder="Apellido"
+          minlength="3"
+          maxlength="10"
+          pattern="[a-zA-Z]*"
+        /><br />
+        <div
+          style="
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-family: 'Gill Sans', sans-serif;
+          "
+        >
+          Fecha de Nacimiento (MM/DD/YYYY)
+        </div>
+        <input
+          id="dateofbirth"
+          type="date"
+          name="dateofbirth"
+          class=""
+          min="1900-01-01"
+          max="2010-01-01"
+          onfocus="(this.type='date')"
+        /><br />
+        <div
+          style="
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-family: 'Gill Sans', sans-serif;
+          "
+        >
+          Altura
+        </div>
+        <input
+          id="height"
+          type="number"
+          class=""
+          name="height"
+          min="120"
+          max="220"
+          placeholder="Altura (cm)"
+        /><br />
+        <center>
+          <div class="radio-toolbar">
+            <input type="radio" id="radiom" name="sex" value="m" checked />
+            <label for="radiom">Masculino</label>
+
+            <input type="radio" id="radiof" name="sex" value="f" />
+            <label for="radiof">Femenino</label>
+          </div>
+        </center>
+        <button id="submit" type="submit">
+          <font size="4px">CREAR</font>
+        </button>
+      </form>
+      <center>
+        <font size="1px" color="green"
+          >Si el botón de envío no funciona, asegúrate de haber ingresado los campos correctamente.</font
+        >
+      </center>
+    </div>
+    <script>
+      function TriggeredKey(e) {
+        var keycode;
+        if (window.event) keycode = window.event.keyCode;
+        if (window.event.keyCode == 13 || window.event.keyCode == 27)
+          return false;
+      }
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
