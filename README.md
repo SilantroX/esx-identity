@@ -1,7 +1,4 @@
 # esx-identify
-
-[![Version](https://img.shields.io/github/release/username/repo.svg)](https://github.com/SilantroX/esx-identity/releases)
-[![License](https://img.shields.io/github/license/username/repo.svg)](https://github.com/SilantroX/esx-identity/blob/main/LICENSE)
 ## ENGLISH
 ## Description
 
